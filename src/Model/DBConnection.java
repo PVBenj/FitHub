@@ -11,7 +11,7 @@ public class DBConnection {
     
     public static Connection getConnection() {
         try{
-            String url = "jdbc:mysql://localhost:3306/TravelSys";
+            String url = "jdbc:mysql://localhost:3306/fithub_db";
             conn = (Connection) DriverManager.getConnection(url, "root", "");
         }
         catch(Exception e) {
